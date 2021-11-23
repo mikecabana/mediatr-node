@@ -2,11 +2,11 @@
     "name": "mediatr-node",
     "version": "0.0.0",
     "description": "Typescript node implementation of the mediator pattern and a port of Jimmy Bogard's MediatR 💜.",
-    "main": "dist/main.js",
+    "main": "dist/index.js",
     "scripts": {
         "tsc": "tsc",
         "build": "npm run tsc",
-        "start": "npm run tsc && node dist/main",
+        "start": "npm run tsc && node dist/index",
         "lint": "npx --no-install eslint . --ext .ts",
         "test": "npx --no-install jest"
     },
